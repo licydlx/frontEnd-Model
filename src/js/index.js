@@ -1,0 +1,1 @@
+$('#some_element').load('./src/js/foo.html #bar');
