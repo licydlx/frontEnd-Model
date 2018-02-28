@@ -1,4 +1,20 @@
-require("../scss/common.scss");
+webpackJsonp([1],{
+
+/***/ "fujM":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "vGYV":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__("M4fF");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
+__webpack_require__("fujM");
 // import _ from 'lodash';
 // import {
 // 	printMe
@@ -87,14 +103,18 @@ require("../scss/common.scss");
 // }
 // document.body.appendChild(component());
 
-import _ from 'lodash';
+
 //import Print from './print';
 
 function component() {
 	var element = document.createElement('div');
 	// lodash 是由当前 script 脚本 import 导入进来的
-	element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+	element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack'], ' ');
 	//element.onclick = Print.bind(null, 'Hello webpack!');
 	return element;
 }
 document.body.appendChild(component());
+
+/***/ })
+
+},["vGYV"]);
